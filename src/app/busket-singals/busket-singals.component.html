@@ -1,0 +1,12 @@
+<div class="container">
+
+  <h3>My Busket - Signals!</h3>
+
+  <p>Quantity - {{ quantity }}: {{ quantity() }}</p>
+
+  <button (click)="increase()" class="btn btn-primary me-3">Increase</button>
+  <button (click)="decrease()" class="btn btn-danger">Decrease</button>
+
+  <p class="mt-3">Total Price: {{ totalPrice() }}</p>
+
+</div>

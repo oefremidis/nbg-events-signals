@@ -1,0 +1,12 @@
+<div class="container">
+  <h3>List of Products</h3>
+
+  <!-- <pre> {{ productsArray }} </pre> -->
+
+  @for(product of productsArray; track $index){
+    {{ product }} <br>
+  }
+
+    <pre> {{ productsObjects | json }} </pre>
+
+</div>
